@@ -18,27 +18,3 @@ alternative to subclassing for extending functionality.
 # Factory Pattern
 
 The Factory Method Pattern defines an interface for creating an object, but lets subclass decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
-
-```mermaid
-classDiagram
-  abstract class Product {
-    + operation(): void
-  }
-
-  class ConcreteProduct {
-    + operation(): void
-  }
-
-  abstract class Creator {
-    + factoryMethod(): Product
-  }
-
-  class ConcreteCreator {
-    + factoryMethod(): Product
-  }
-
-  ConcreteProduct --> Product : Generalization
-  ConcreteCreator --> Creator : Generalization
-  ConcreteCreator -> ConcreteProduct : Creates
-
-```
