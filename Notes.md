@@ -17,4 +17,16 @@ alternative to subclassing for extending functionality.
 
 # Factory Pattern
 
+## Definition
+
 The Factory Method Pattern defines an interface for creating an object, but lets subclass decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+
+## Abstract Factory Pattern
+
+The Abstract Factory Pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+## Difference between factory and abstract factory
+
+An abstract factory is used whenever you have families of products you need to create and you want to make sure your clients create products that belong together.
+
+A Factory Method is used to decouple your client code from the concrete classes you need to instantiate, or if you don’t know ahead of time all the concrete classes you are going to need. To use, just subclass factory and implement the create method!
