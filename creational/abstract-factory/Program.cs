@@ -1,7 +1,8 @@
 ﻿using abstract_factory;
 
-ITwoWheelerFactory hondaFactory = new Honda();
-ITwoWheelerFactory bajajFactory = new Bajaj();
+TwoWheelerFactoryProvider factoryProvider = new();
+ITwoWheelerFactory hondaFactory = factoryProvider.GetFactory("honda");
+ITwoWheelerFactory bajajFactory = factoryProvider.GetFactory("bajaj");
 
 IScooty activa = hondaFactory.GetScooty("activa");
 print_scooty_details(activa);
