@@ -30,3 +30,7 @@ The Abstract Factory Pattern provides an interface for creating families of rela
 An abstract factory is used whenever you have families of products you need to create and you want to make sure your clients create products that belong together.
 
 A Factory Method is used to decouple your client code from the concrete classes you need to instantiate, or if you don’t know ahead of time all the concrete classes you are going to need. To use, just subclass factory and implement the create method!
+
+# Singleton Pattern
+
+The Singleton Pattern ensures a class has only one instance, and provides a global point of access to it.
