@@ -19,6 +19,7 @@ alternative to subclassing for extending functionality.
 
 The Factory Method Pattern defines an interface for creating an object, but lets subclass decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
 
+```plantuml
 @startuml
 package "Factory Pattern" #DDDDDD {
   abstract class Product {
@@ -42,3 +43,4 @@ package "Factory Pattern" #DDDDDD {
   ConcreteCreator -> ConcreteProduct : Creates
 }
 @enduml
+```
