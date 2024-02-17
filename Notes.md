@@ -13,7 +13,7 @@
   - Adapter
   - Facade
   - Composite
-  - Factory
+  - Proxy
 - Behavioral Patterns
   - Strategy
   - Observer
@@ -29,6 +29,7 @@
 4. Strive for loosely coupled designs between objects that interact.
 5. Open-Closed Principle: Classes should be open for extension, but closed for modification.
 6. Dependency Inversion Principle: Depend upon abstractions. Do not depend upon concrete classes.
+7. Principle of Least Knowledge: talk only to your immediate friends.
 
 ## Strategy Pattern
 
@@ -69,3 +70,13 @@ The Command Pattern encapsulates a request as an object, thereby letting you par
 ## Adapter Pattern
 
 The Adapter Pattern converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
+
+## Facade Pattern
+
+The Facade Pattern provides a unified interface to a set of interfaces in a subsystem. Facade defines a higherlevel interface that makes the subsystem easier to use.
+
+### Decorator vs Adapter vs Facade
+
+- Decorator extends responsibility or behaviours to the existing objects without modifying the interface or type. They can be applied multiple times as well.
+- Adapter converts the interface of the object that they wrap into one interface that a client is expecting.
+- A facade on the other hand simplifies an interface (although it also gives a new interface like adapter) and it also decouples a client from a subsystem of components.
