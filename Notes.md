@@ -15,10 +15,10 @@
   - Composite
   - Factory
 - Behavioral Patterns
+  - Strategy
   - Observer
   - Command
   - Iterator
-  - Strategy
   - State
 
 ## Design Principles
@@ -61,3 +61,7 @@ A Factory Method is used to decouple your client code from the concrete classes 
 ## Singleton Pattern
 
 The Singleton Pattern ensures a class has only one instance, and provides a global point of access to it.
+
+## Command Pattern
+
+The Command Pattern encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
