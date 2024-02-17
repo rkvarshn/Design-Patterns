@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "factory", "creational\facto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstract-factory", "creational\abstract-factory\abstract-factory.csproj", "{CBF96B60-8D17-421F-BD31-3A61E405CD8C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "behavioral", "behavioral", "{3B3CA037-12C7-4BDA-A990-8A062B85AE74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strategy", "behavioral\strategy\strategy.csproj", "{77062BF4-E5ED-4748-9AF9-081D18CDE6D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,10 +36,15 @@ Global
 		{CBF96B60-8D17-421F-BD31-3A61E405CD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBF96B60-8D17-421F-BD31-3A61E405CD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBF96B60-8D17-421F-BD31-3A61E405CD8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77062BF4-E5ED-4748-9AF9-081D18CDE6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77062BF4-E5ED-4748-9AF9-081D18CDE6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77062BF4-E5ED-4748-9AF9-081D18CDE6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77062BF4-E5ED-4748-9AF9-081D18CDE6D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D2BF7800-C2EA-4C68-BE6B-CAFFF3C32628} = {FE0379BE-78B9-4812-BCED-C2C8DFCA5C3E}
 		{CD0A8FC8-E09B-4A7D-95D1-8FBDF22BEBAC} = {FE0379BE-78B9-4812-BCED-C2C8DFCA5C3E}
 		{CBF96B60-8D17-421F-BD31-3A61E405CD8C} = {FE0379BE-78B9-4812-BCED-C2C8DFCA5C3E}
+		{77062BF4-E5ED-4748-9AF9-081D18CDE6D0} = {3B3CA037-12C7-4BDA-A990-8A062B85AE74}
 	EndGlobalSection
 EndGlobal
