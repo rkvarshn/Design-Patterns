@@ -65,3 +65,7 @@ The Singleton Pattern ensures a class has only one instance, and provides a glob
 ## Command Pattern
 
 The Command Pattern encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
+
+## Adapter Pattern
+
+The Adapter Pattern converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
