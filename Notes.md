@@ -18,6 +18,7 @@
   - Strategy
   - Observer
   - Command
+  - Template
   - Iterator
   - State
 
@@ -30,6 +31,7 @@
 5. Open-Closed Principle: Classes should be open for extension, but closed for modification.
 6. Dependency Inversion Principle: Depend upon abstractions. Do not depend upon concrete classes.
 7. Principle of Least Knowledge: talk only to your immediate friends.
+8. The Hollywood Principle: With the Hollywood Principle, we allow low-level components to hook themselves into a system, but the high-level components determine when they are needed, and how. In other words, the high-level components give the low-level components the “don’t call us, we’ll call you” treatment.
 
 ## Strategy Pattern
 
@@ -80,3 +82,13 @@ The Facade Pattern provides a unified interface to a set of interfaces in a subs
 - Decorator extends responsibility or behaviours to the existing objects without modifying the interface or type. They can be applied multiple times as well.
 - Adapter converts the interface of the object that they wrap into one interface that a client is expecting.
 - A facade on the other hand simplifies an interface (although it also gives a new interface like adapter) and it also decouples a client from a subsystem of components.
+
+## Template Pattern
+
+The Template Method Pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
+
+### Template vs Strategy vs Factory
+
+- Template: Subclasses decide how to implement steps in an algorithm. This happens at compile-time.
+- Strategy: Encapsulate interchangeable behaviors and use delegation to decide which behavior to use. This happens at runtime.
+- Factory: Subclasses decide which concrete classes to instantiate.
