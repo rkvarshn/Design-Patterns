@@ -109,3 +109,13 @@ The State Pattern allows an object to alter its behavior when its internal state
 - Both change behavior at runtime.
 - Strategy intents to have plugin behaviors. State pattern moves object into different defined state. In other words, strategy encapsulates behavior and state encapsulates states.
 - Strategy is defined by the client but state is done by context or state itself.
+
+## Builder Pattern
+
+Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+
+### Builder vs Factory vs Decorator
+
+- Builder does step by step creation of complex objects.  If you have a class with many constructors, and every constructor has a high number of parameters, also known as the Telescoping Constructor Pattern, you can use Builder to create an object more easily.
+- Factory creates objects without specifying the exact class of object that will be created in one go. Factory may have params though.
+- Decorator is also used to add functionality to existing objects but a decorator may not know about the other decorator. This is less flexible while builder provides more flexiblity.
