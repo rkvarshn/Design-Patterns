@@ -6,14 +6,11 @@
   - Singleton
   - Factory
   - Abstract Factory
-  - Prototype
-  - Builder
 - Structural Patterns
   - Decorator
   - Adapter
   - Facade
   - Composite
-  - Proxy
 - Behavioral Patterns
   - Strategy
   - Observer
@@ -101,3 +98,14 @@ The Iterator Pattern provides a way to access the elements of an aggregate objec
 ## Composite Pattern
 
 The Composite Pattern allows you to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+
+## State Pattern
+
+The State Pattern allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
+
+### Strategy vs State Pattern
+
+- These both use composition and delegation to incorportate different behaviors.
+- Both change behavior at runtime.
+- Strategy intents to have plugin behaviors. State pattern moves object into different defined state. In other words, strategy encapsulates behavior and state encapsulates states.
+- Strategy is defined by the client but state is done by context or state itself.
