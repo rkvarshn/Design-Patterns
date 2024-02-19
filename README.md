@@ -6,6 +6,7 @@
   - Singleton
   - Factory
   - Abstract Factory
+  - Builder
 - Structural Patterns
   - Decorator
   - Adapter
