@@ -32,6 +32,7 @@
 6. Dependency Inversion Principle: Depend upon abstractions. Do not depend upon concrete classes.
 7. Principle of Least Knowledge: talk only to your immediate friends.
 8. The Hollywood Principle: With the Hollywood Principle, we allow low-level components to hook themselves into a system, but the high-level components determine when they are needed, and how. In other words, the high-level components give the low-level components the “don’t call us, we’ll call you” treatment.
+9. Single Responsibility Principle: A class should have only one reason to change.
 
 ## Strategy Pattern
 
@@ -92,3 +93,7 @@ The Template Method Pattern defines the skeleton of an algorithm in a method, de
 - Template: Subclasses decide how to implement steps in an algorithm. This happens at compile-time.
 - Strategy: Encapsulate interchangeable behaviors and use delegation to decide which behavior to use. This happens at runtime.
 - Factory: Subclasses decide which concrete classes to instantiate.
+
+## Iterator Pattern
+
+The Iterator Pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
