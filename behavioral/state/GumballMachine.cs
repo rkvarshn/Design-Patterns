@@ -1,4 +1,5 @@
 ﻿namespace state;
+// Context class: GumballMachine
 public class GumballMachine
 {
     public IGumballMachineState SoldOutState { get; init; }
